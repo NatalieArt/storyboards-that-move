@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
  <title>Storyboards that move: from one prompt to a finished video | Sogni</title>
  <meta name="description" content="From a single character prompt to a 12-panel storyboard to a finished social video — the full Sogni Chat workflow with GPT Image 2 and Seedance 2.0, all inside chat.sogni.ai.">
  <meta name="theme-color" content="#050704">
@@ -102,6 +102,11 @@
  -webkit-backdrop-filter: blur(14px);
  background: rgba(5, 7, 4, 0.72);
  border-bottom: 1px solid var(--line);
+ }
+
+ .topbar .shell {
+ padding-left: max(38px, calc(env(safe-area-inset-left) + 30px));
+ padding-right: max(32px, calc(env(safe-area-inset-right) + 24px));
  }
 
  .topbar-inner {
@@ -1147,6 +1152,11 @@
 
  @media (max-width: 640px) {
  .shell { padding: 0 18px; }
+
+ .topbar .shell {
+ padding-left: max(24px, calc(env(safe-area-inset-left) + 22px));
+ padding-right: max(18px, calc(env(safe-area-inset-right) + 18px));
+ }
 
  .topbar-inner {
  padding: 14px 0;
