@@ -4,7 +4,7 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
  <title>Storyboards that move: from one prompt to a finished video | Sogni</title>
- <meta name="description" content="From a single character prompt to a 12-panel storyboard to a finished social video — the full Sogni Chat workflow with GPT Image 2 and Seedance 2.0, all inside chat.sogni.ai.">
+ <meta name="description" content="From a single character prompt to a storyboard and a finished social video — the full Sogni Chat workflow with GPT Image 2 and Seedance 2.0, all inside chat.sogni.ai.">
  <meta name="theme-color" content="#050704">
  <link rel="canonical" href="https://natalieart.github.io/storyboards-that-move/">
  <link rel="icon" type="image/png" href="assets/storyboards/chat-icon.png">
@@ -13,7 +13,7 @@
  <meta property="og:site_name" content="Sogni">
  <meta property="og:url" content="https://natalieart.github.io/storyboards-that-move/">
  <meta property="og:title" content="Storyboards that move: from one prompt to a finished video">
- <meta property="og:description" content="From a single character prompt to a 12-panel storyboard to a finished social video — the full Sogni Chat workflow with GPT Image 2 and Seedance 2.0.">
+ <meta property="og:description" content="From a single character prompt to a storyboard and a finished social video — the full Sogni Chat workflow with GPT Image 2 and Seedance 2.0.">
  <meta property="og:image" content="https://natalieart.github.io/storyboards-that-move/assets/storyboards/storyboards-banner.png">
  <meta property="og:image:alt" content="Storyboards in Sogni Chat banner showing a 12-panel self-care morning routine and a futuristic anime character.">
  <meta name="twitter:card" content="summary_large_image">
@@ -1430,15 +1430,15 @@
  </p>
  <p>
  You describe a character, <strong>GPT Image 2</strong> renders a clean reference,
- then a 12-panel storyboard sheet with timecodes and on-screen captions. Then
+ then a storyboard sheet with timecodes and on-screen captions. Then
  you hand the sheet back to the agent and <strong>Seedance&nbsp;2.0</strong>
  turns it into a finished social video, all inside
  <strong style="color:var(--accent);">chat.sogni.ai</strong>.
  </p>
  <p>
  The walkthrough below follows one real chat session: a cyberpunk anime
- heroine living through her morning self-care routine, twelve beats, one
- finished clip.
+ heroine living through her morning self-care routine, shown here as one
+ 12-beat example that becomes a finished clip.
  </p>
  </div>
  <div class="intro-toc">
@@ -1451,7 +1451,7 @@
  <a class="toc-item" href="#step-05"><span class="toc-num">05</span><span class="toc-title">Describe or upload your hero</span></a>
  <a class="toc-item" href="#step-06"><span class="toc-num">06</span><span class="toc-title">Confirm the cost</span></a>
  <a class="toc-item" href="#step-07"><span class="toc-num">07</span><span class="toc-title">Meet your character</span></a>
- <a class="toc-item" href="#step-08"><span class="toc-num">08</span><span class="toc-title">Build the 12-panel storyboard</span></a>
+ <a class="toc-item" href="#step-08"><span class="toc-num">08</span><span class="toc-title">Build the storyboard</span></a>
  <a class="toc-item" href="#step-09"><span class="toc-num">09</span><span class="toc-title">Render the video with Seedance 2.0</span></a>
  <a class="toc-item" href="#step-10"><span class="toc-num">10</span><span class="toc-title">Hit a snag? Tell the chat</span></a>
  </div>
@@ -1476,11 +1476,6 @@
  finished result before you start your own: <em>Storyboard Video Demo</em>,
  <em>GPT Image 2 Demo</em>, and <em>Character Sheet Demo</em>.
  </p>
- <div class="step-meta">
- <span class="meta-chip">chat.sogni.ai</span>
- <span class="meta-chip">Creative Agent 1.0</span>
- <span class="meta-chip">Featured workflow</span>
- </div>
  </div>
  <div class="step-media">
  <figure class="media-panel">
@@ -1499,8 +1494,9 @@
  <h3>Sign in to claim your monthly credits.</h3>
  <p>
  Hit <strong>Sign In</strong> and the Sogni mascot pops up to wave you through.
- Every account ships with <strong>400 free Spark credits a month</strong>, more
- than enough to render the entire workflow you are about to follow.
+ Every account ships with <strong>400 free Spark credits a month</strong>, enough
+ to explore the workflow, test prompts, and generate real outputs before you
+ decide how far you want to push a session.
  </p>
  <p>
  No account yet? The <em>Sign up</em> link at the bottom of the modal takes a
@@ -1704,16 +1700,17 @@
  <section class="step" id="step-08">
  <div class="step-copy">
  <div class="section-label">Step 08 · Build the storyboard</div>
- <h3>One brief, twelve panels, one printable sheet.</h3>
+ <h3>One brief, any panel count, one printable sheet.</h3>
  <p>
  Now hand the agent a structured beat list. Describe a story, a routine, or
- a tonal arc, and tell it how many beats and how long the final video should
- be. Sogni Chat composes a single storyboard sheet, every panel drawn in
- sequence, with on-screen text overlays for each beat.
+ a tonal arc, and tell it how many beats, shots, or panels you want, what
+ aspect ratio you want, and how long the final video should be. Sogni Chat
+ composes a single storyboard sheet, every panel drawn in sequence, with
+ on-screen text overlays for each beat.
  </p>
 
  <div class="prompt-shell" data-prompt>
- <span class="prompt-label">Prompt · 12-panel storyboard</span>
+ <span class="prompt-label">Prompt · Example storyboard brief</span>
  <div class="prompt-block" data-prompt-text>The main heroine is the same. Create an anime-style storyboard (max duration 15s) showing her self-care morning routine. She has a dark high ponytail with neon cyan, teal, magenta, and violet highlights, violet eyes, and a clean cyberpunk anime look. Show her in multiple panels with a bright soft aesthetic, cozy morning mood, clean composition, soft lighting, and minimal background clutter.
 
 The heroine explains what she is doing step by step.
@@ -1730,11 +1727,13 @@ Keep the character design consistent in every panel. Use expressive but simple p
  <p>
  No idea what your storyboard should be? Just ask for a storyboard
  <em>with this hero</em> and let the chat figure it out, theme, beats,
- captions, the lot. Sogni Chat fills in any missing creative details and
- hands you back a finished sheet to react to.
+ captions, the lot. If you want a specific count or format, say it directly
+ in the prompt, six panels, twelve, twenty, square, vertical 9:16,
+ widescreen 16:9, whatever the story needs. Sogni Chat fills in any
+ missing creative details and hands you back a finished sheet to react to.
  </p>
  <div class="note-card">
- <p><strong>Why one sheet instead of twelve calls?</strong> Because rendering all panels together locks the character design across every beat, same face, same hair, same outfit, same lighting language. That consistency is what makes the next step (turning it into video) actually work.</p>
+ <p><strong>Why one sheet instead of separate panel calls?</strong> Because rendering all panels together locks the character design across every beat, same face, same hair, same outfit, same lighting language. That consistency is what makes the next step (turning it into video) actually work.</p>
  </div>
  </div>
  <div class="step-media">
@@ -1747,7 +1746,7 @@ Keep the character design consistent in every panel. Use expressive but simple p
  <img src="assets/storyboards/11-storyboard-closeup.png" alt="Close-up of the 12-panel self-care morning routine storyboard: morning check, fresh breath, wash away, foam cleanse, hydration, ponytail refresh, serum drip, lock it in, coffee fuel, breakfast spread, fuel up day one, ready let's go.">
  </div>
  </div>
- <figcaption>One generation, twelve panels, one shot list. Captions baked in, character locked across every beat.</figcaption>
+ <figcaption>One generation, one shot list. Captions baked in, character locked across every beat, with the panel count set by your prompt.</figcaption>
  </figure>
  </div>
  </section>
@@ -1866,7 +1865,7 @@ Keep the character design consistent in every panel. Use expressive but simple p
  <section class="closing">
  <div class="closing-copy">
  <div class="section-label">Try it now</div>
- <h2>One chat. One hero. From description to a 12-panel storyboard to a finished video.</h2>
+ <h2>One chat. One hero. From description to a storyboard to a finished video.</h2>
  <p>
  That is the whole point of Sogni Chat. The same conversation that drafts
  your character drafts the sheet, the same conversation that drafts the
@@ -1876,7 +1875,7 @@ Keep the character design consistent in every panel. Use expressive but simple p
  <p>
  Start with a sentence, end with a clip. Then save it as a
  <strong>Workflow Template</strong> and the next morning routine, product
- demo, or social spot is one prompt away instead of twelve.
+ demo, or social spot is one prompt away instead of a pile of separate panel calls.
  </p>
  <div class="closing-actions">
  <a class="button" href="https://chat.sogni.ai/" target="_blank" rel="noreferrer">Open chat.sogni.ai</a>
